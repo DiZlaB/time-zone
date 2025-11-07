@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="src/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&family=Poiret+One&family=Tangerine:wght@400;700&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.js" integrity="sha512-GuzEIkupjKphALPyulX6M2Way8mttGXd6+mTHsbVyLg+g7GANkY3MHh5c5hWMdQ587oQxM4Hh4WG3191WNZwag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="src/script.js" defer></script>
+  <title>SC+ Add-on P1</title>
+</head>
+<body>
+  <header>
+    <h1>TIME ZONE</h1>
+  </header>
+  <main>
+   <form action="/backend">
+      <label for="city-dropdown"> Choose city pelase:</label>
+    <div>
+        <select name="citySeletion" id="city-dropdown" class="city-dropdown">
+          <option value=""> 🌎-select city-</option>
+          <option value="Melbourne"> 🐨 Melbourne</option>
+          <option value="New Delhi"> 🐯 New Delhi</option>
+          <option value="Cape Town"> 🦁 Cape Town</option>
+        </select>
+    </div>
+   </form>
+   <div id="picked-city" class="information">
+<h5 class="city-Name">Frankfurt am Main</h5> 
+<div class="date"> 01.01.2026</div>
+<div class="time">12:00</div>
+   </div>
+   </main>
+   <footer>
+    <hr>
+    <small> This page was created by <a href="https://github.com/DiZlaB" target="_blank" rel="no-referrer">Dilyna.</a> It is open-source on <a href="https://github.com/DiZlaB/dropdown" target="_blank" rel="no-referrer">GitHub</a> and vailable on <a href="https://timezone-dropdown.netlify.app/" target="_blank" rel="no-referrer">Netlify</a></small>
+   </footer>
+</body>
+</html>

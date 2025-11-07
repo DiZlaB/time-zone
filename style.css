@@ -1,0 +1,48 @@
+body {
+background: #3B0270;
+color: #E9B3FB;
+display: flex;
+flex-direction: column;
+align-items: center;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  text-align: center;
+}
+.city-dropdown, .information {
+  margin-top: 20px;
+  padding: 15px;
+  width: 390px;
+ font-family: "Poiret One", sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #FFF1F1;
+  color: #3B0270;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+h5{
+  margin: 0;
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+.time
+{ flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+hr{
+  color:  #FFF1F1;
+}
+a{
+  color: #E9B3FB;
+}
