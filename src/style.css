@@ -24,22 +24,27 @@ main {
   color: #3B0270;
 }
 .information {
-  display: flex;
-  flex-direction: column;
+display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+ align-items: center;
 }
 h5{
   margin: 0;
   flex-wrap: wrap;
   font-size: 25px;
 }
-.time
-{ flex-wrap: wrap;
-  align-content: flex-end;
-  align-items: flex-end;
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
+
+.time {
+  font-size: 45px;
+}
+
 hr{
   color:  #FFF1F1;
 }
