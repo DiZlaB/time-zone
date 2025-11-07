@@ -10,7 +10,9 @@ align-items: center;
 }
 
 main {
-  text-align: center;
+  width: min(90vw, 420px);   
+  margin-inline: auto;      
+  text-align: center;      
 }
 .city-dropdown, .information {
   margin-top: 20px;
@@ -22,6 +24,8 @@ main {
   border-radius: 25px;
   background-color: #FFF1F1;
   color: #3B0270;
+  width: 100%;
+  box-sizing: border-box; 
 }
 .information {
 display: flex;
@@ -43,6 +47,7 @@ h5{
 
 .time {
   font-size: 45px;
+  gap: 10px;
 }
 
 hr{
