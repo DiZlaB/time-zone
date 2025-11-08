@@ -33,4 +33,5 @@ selectedCity.innerHTML=`
           <div class="date"> ${moment.tz(cityTimezones[event.target.value]).format("DD.MM.YYYY")} </div>
         </div>
       <div class="time">${moment.tz(cityTimezones[event.target.value]).format("H:mm")}</div>`
+      selectedCity.style.display = "flex";
 }
